@@ -1,7 +1,7 @@
 import styles from './styles.module.scss';
 
 type SubscribeButtonProps = {
-  princeId: number;
+  princeId: string;
 }
 export function SubscribeButton({priceId}: SubscribeButtonProps) {
   return (
